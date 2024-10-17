@@ -5,8 +5,19 @@
 	var $body = $('body');
 
 	/* Preloader Effect */
-	$window.on('load', function () {
-		$(".preloader").fadeOut(500);
+	// $window.on('load', function () {
+	// 	$(".preloader").fadeOut(500);
+	// });
+
+
+	$(document).ready(function () {
+		// Ensure loader is visible when the document is ready
+		$("#page-loader").show();
+	});
+
+	$(window).on("load", function () {
+		// Hide the loader once the entire page (and all its assets) has fully loaded
+		$("#page-loader").fadeOut(500); // Adjust fade-out time if needed
 	});
 
 	/* Sticky Header */
