@@ -4,21 +4,18 @@
 	var $window = $(window);
 	var $body = $('body');
 
-	/* Preloader Effect */
-	// $window.on('load', function () {
-	// 	$(".preloader").fadeOut(500);
-	// });
 
 
 	$(document).ready(function () {
-		// Ensure loader is visible when the document is ready
-		$("#page-loader").show();
+		// Show the preloader when the document is ready
+		$(".preloader").show();
 	});
 
 	$(window).on("load", function () {
-		// Hide the loader once the entire page (and all its assets) has fully loaded
-		$("#page-loader").fadeOut(500); // Adjust fade-out time if needed
+		// Hide the preloader once the entire page is fully loaded
+		$(".preloader").fadeOut(500); // Adjust fade-out time if needed
 	});
+
 
 	/* Sticky Header */
 	if ($('.active-sticky-header').length) {
@@ -54,45 +51,6 @@
 		});
 	}
 
-	/* Hero Slider Layout JS */
-	const hero_slider_layout = new Swiper('.hero-slider-layout .swiper', {
-		slidesPerView: 1,
-		speed: 1000,
-		spaceBetween: 0,
-		loop: true,
-		autoplay: {
-			delay: 4000,
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-		},
-	});
-
-	/* testimonial Slider JS */
-	if ($('.testimonial-slider').length) {
-		const testimonial_slider = new Swiper('.testimonial-slider .swiper', {
-			slidesPerView: 1,
-			speed: 1000,
-			spaceBetween: 30,
-			loop: true,
-			autoplay: {
-				delay: 3000,
-			},
-			pagination: {
-				el: '.swiper-pagination',
-				clickable: true,
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-				},
-				991: {
-					slidesPerView: 3,
-				}
-			}
-		});
-	}
 
 	/* Services Single Image Carousel JS */
 	if ($('.service-images-slider').length) {
