@@ -1486,3 +1486,127 @@
         </div>
     </div>
     <!-- Our Service Section End -->
+
+
+
+
+
+
+
+
+
+
+
+      <div class="col-lg-4 col-md-6 filter-Security portfolio-item">
+                                <!-- Project Item Start -->
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.5s">
+                                    <!-- Project Image Start -->
+                                    <div class="project-image" data-cursor-text="View">
+                                        <a href="#">
+                                            <figure>
+                                                <img src="images/our-project-2.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- Project Image End -->
+
+                                    <!-- Project Body Start -->
+                                    <div class="project-body">
+                                        <!-- Project Body Title Start -->
+                                        <div class="project-body-title">
+                                            <h3>Arabian Networks</h3>
+                                        </div>
+                                        <!-- Project Body Title End -->
+
+                                        <!-- Project Content Start -->
+                                        <div class="project-content">
+                                            <p>The Supply of an Access Control System for Arabian Networks enhances
+                                                security by controlling access to restricted areas.
+                                                It ensures only authorized personnel can enter, improving safety and
+                                                operational efficiency.</p>
+                                            <div class="project-content-footer">
+                                                <a href="#" class="readmore-btn">view more</a>
+                                            </div>
+                                        </div>
+                                        <!-- Project Content End -->
+                                    </div>
+                                    <!-- Project Body End -->
+                                </div>
+                                <!-- Project Item End -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 filter-it portfolio-item">
+                                <!-- Project Item Start -->
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.5s">
+                                    <!-- Project Image Start -->
+                                    <div class="project-image" data-cursor-text="View">
+                                        <a href="#">
+                                            <figure>
+                                                <img src="images/our-project-2.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- Project Image End -->
+
+                                    <!-- Project Body Start -->
+                                    <div class="project-body">
+                                        <!-- Project Body Title Start -->
+                                        <div class="project-body-title">
+                                            <h3>SAEI Jeddah</h3>
+                                        </div>
+                                        <!-- Project Body Title End -->
+
+                                        <!-- Project Content Start -->
+                                        <div class="project-content">
+                                            <p>The Annual Maintenance Contract for the Data Center UPS System at SAEI,
+                                                Jeddah ensures continuous and reliable backup
+                                                power. Regular inspections and servicing help prevent failures, ensuring
+                                                the UPS system operates efficiently during
+                                                power outages.</p>
+                                            <div class="project-content-footer">
+                                                <a href="#" class="readmore-btn">view more</a>
+                                            </div>
+                                        </div>
+                                        <!-- Project Content End -->
+                                    </div>
+                                    <!-- Project Body End -->
+                                </div>
+                                <!-- Project Item End -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 filter-it portfolio-item">
+                                <!-- Project Item Start -->
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.5s">
+                                    <!-- Project Image Start -->
+                                    <div class="project-image" data-cursor-text="View">
+                                        <a href="#">
+                                            <figure>
+                                                <img src="images/our-project-2.jpg" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- Project Image End -->
+
+                                    <!-- Project Body Start -->
+                                    <div class="project-body">
+                                        <!-- Project Body Title Start -->
+                                        <div class="project-body-title">
+                                            <h3>Advanced Smelter Cristal Jizan</h3>
+                                        </div>
+                                        <!-- Project Body Title End -->
+
+                                        <!-- Project Content Start -->
+                                        <div class="project-content">
+                                            <p>The Annual Maintenance Contract for Data Center ACUs (Air Conditioning
+                                                Units) at Advanced Smelter Cristal in Jizan
+                                                ensures consistent cooling and optimal performance of the data center.
+                                                Regular maintenance helps prevent overheating,
+                                                ensuring smooth operations and system reliability.</p>
+                                            <div class="project-content-footer">
+                                                <a href="#" class="readmore-btn">view more</a>
+                                            </div>
+                                        </div>
+                                        <!-- Project Content End -->
+                                    </div>
+                                    <!-- Project Body End -->
+                                </div>
+                                <!-- Project Item End -->
+                            </div>
