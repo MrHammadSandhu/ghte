@@ -72,7 +72,6 @@
             <!-- Logo Start -->
             <a class="navbar-brand" href="index.html">
               <img src="images/logo (3).png" alt="Logo" />
-              <!-- <h1 class="text-white">GHTE</h1> -->
             </a>
             <!-- Logo End -->
             <div class="collapse navbar-collapse main-menu">
@@ -177,8 +176,6 @@
                   <li class="nav-item submenu">
                     <a class="nav-link" href="#" data-key="it_service">IT</a>
                     <ul>
-                      <!-- <li class="nav-item"><a class="nav-link" href="datacenter.html">Data
-                                                Center</a></li> -->
                       <li class="nav-item">
                         <a class="nav-link" href="racks.html" data-key="racks"
                           >Racks
@@ -220,35 +217,36 @@
                   </li>
                 </ul>
               </div>
-              <div class="header-btn d-inline-flex mx-2 loginBtn">
-                <!-- <a href="#" class="btn-default mx-1">Login</a> -->
-                <div class="language-select">
-                  <div class="flag-container">
-                    <img
-                      id="selectedFlag"
-                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg fill='none'%3E%3Cpath fill='%23F0F0F0' d='M48 24c0-2.796-.486-5.48-1.377-8H1.378A23.929 23.929 0 0 0 0 24c0 2.796.486 5.48 1.377 8h45.245A23.93 23.93 0 0 0 48 24Z'/%3E%3Cpath fill='%23D80027' d='M24 48c10.252 0 18.954-6.43 22.623-16H1.377C5.047 41.57 13.748 48 24 48ZM24 0C13.748 0 5.047 6.43 1.377 16h45.245C42.954 6.43 34.252 0 24 0Z'/%3E%3Cpath fill='%230063A3' d='m19.262 19.304 2.446 7.532h7.922l-6.41 4.657 2.446 7.532-6.41-4.657-6.41 4.657 2.447-7.532-6.411-4.657h7.922z'/%3E%3C/g%3E%3C/svg%3E"
-                      alt="Flag"
-                      class="flag"
-                      width="20"
-                    />
-                  </div>
-                  <select id="languageSelector" class="form-select">
-                    <option
-                      value="en"
-                      data-flag="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg fill='none'%3E%3Cpath fill='%23F0F0F0' d='M48 24c0-2.796-.486-5.48-1.377-8H1.378A23.929 23.929 0 0 0 0 24c0 2.796.486 5.48 1.377 8h45.245A23.93 23.93 0 0 0 48 24Z'/%3E%3Cpath fill='%23D80027' d='M24 48c10.252 0 18.954-6.43 22.623-16H1.377C5.047 41.57 13.748 48 24 48ZM24 0C13.748 0 5.047 6.43 1.377 16h45.245C42.954 6.43 34.252 0 24 0Z'/%3E%3Cpath fill='%230063A3' d='m19.262 19.304 2.446 7.532h7.922l-6.41 4.657 2.446 7.532-6.41-4.657-6.41 4.657 2.447-7.532-6.411-4.657h7.922z'/%3E%3C/g%3E%3C/svg%3E"
-                      selected
-                    >
-                      English
-                    </option>
-                    <option
-                      value="ar"
-                      data-flag="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23FFFFFF' d='M0 0h48v48H0z'/%3E%3Cpath fill='%23006946' d='M0 0h48v48H0z'/%3E%3Cpath fill='%23FFCF00' d='M24 6c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S29.523 6 24 6zm0 16a6 6 0 1 1 0-12 6 6 0 0 1 0 12z'/%3E%3C/svg%3E"
-                    >
-                      العربية
-                    </option>
-                  </select>
-                </div>
+            </div>
+            <div class="language-selector">
+              <div class="selected-language" id="selectedLanguage">
+                <img
+                  id="selectedFlag"
+                  src="https://flagcdn.com/w40/gb.png"
+                  alt="English"
+                  class="flag"
+                />
+                <span id="selectedLangText">English</span>
+                <i class="arrow">&#9662;</i>
               </div>
+              <ul class="dropdown" id="languageDropdown">
+                <li data-lang="ar" data-flag="https://flagcdn.com/w40/sa.png">
+                  <img
+                    src="https://flagcdn.com/w40/sa.png"
+                    alt="Arabic"
+                    class="flag"
+                  />
+                  <span>العربية</span>
+                </li>
+                <li data-lang="en" data-flag="https://flagcdn.com/w40/gb.png">
+                  <img
+                    src="https://flagcdn.com/w40/gb.png"
+                    alt="English"
+                    class="flag"
+                  />
+                  <span>English</span>
+                </li>
+              </ul>
             </div>
             <!-- Main Menu End -->
             <div class="navbar-toggle"></div>
