@@ -40,6 +40,7 @@
   </head>
 
   <body>
+    <div id="toast-container"></div>
     <!-- Preloader Start -->
     <div class="preloader">
       <div class="loading-container">
@@ -353,20 +354,15 @@
               </div>
               <!-- Section Title End -->
 
-              <form
-                id="contactForm"
-                action="#"
-                method="POST"
-                data-toggle="validator"
-              >
+              <form id="inquiry-form" data-toggle="validator">
                 <div class="row">
                   <div class="form-group col-md-6 mb-3">
                     <input
                       type="text"
+                      id="name"
                       name="name"
                       class="form-control"
-                      id="name"
-                      placeholder="Enter Your name"
+                      placeholder="Enter Your Name"
                       required=""
                     />
                     <div class="help-block with-errors"></div>
@@ -375,9 +371,9 @@
                   <div class="form-group col-md-6 mb-3">
                     <input
                       type="email"
+                      id="email"
                       name="email"
                       class="form-control"
-                      id="email"
                       placeholder="Enter Your email"
                       required=""
                     />
@@ -387,9 +383,9 @@
                   <div class="form-group col-md-6 mb-3">
                     <input
                       type="text"
+                      id="phone"
                       name="phone"
                       class="form-control"
-                      id="phone"
                       placeholder="Phone number"
                       required=""
                     />
@@ -399,9 +395,9 @@
                   <div class="form-group col-md-6 mb-3">
                     <input
                       type="text"
+                      id="subject"
                       name="subject"
                       class="form-control"
-                      id="subject"
                       placeholder="Subject"
                       required=""
                     />
@@ -410,9 +406,9 @@
 
                   <div class="form-group col-md-12 mb-4">
                     <textarea
-                      name="msg"
                       class="form-control"
                       id="msg"
+                      name="msg"
                       rows="3"
                       placeholder="Message"
                       required=""
@@ -421,8 +417,13 @@
                   </div>
 
                   <div class="col-md-12">
-                    <button type="submit" class="btn-default">submit</button>
-                    <div id="msgSubmit" class="h3 hidden"></div>
+                    <button
+                      type="submit"
+                      id="submit-button"
+                      class="btn-default"
+                    >
+                      Send Inquiry
+                    </button>
                   </div>
                 </div>
               </form>
@@ -536,9 +537,6 @@
                     class="img-fluid"
                   />
                 </div>
-                <!-- <div class="slide">
-                                <img src="images/vendor4.jpg" style="object-fit: cover" class="img-fluid " />
-                            </div> -->
                 <div class="slide">
                   <img
                     src="images/vendor5.png"
@@ -588,9 +586,6 @@
                     class="img-fluid"
                   />
                 </div>
-                <!-- <div class="slide">
-                                <img src="images/vendor4.jpg" style="object-fit: cover" class="img-fluid " />
-                            </div> -->
                 <div class="slide">
                   <img
                     src="images/vendor5.png"
@@ -633,9 +628,6 @@
                     class="img-fluid"
                   />
                 </div>
-                <!-- <div class="slide">
-                                <img src="images/vendor4.jpg" style="object-fit: cover" class="img-fluid " />
-                            </div> -->
                 <div class="slide">
                   <img
                     src="images/vendor5.png"
@@ -664,9 +656,6 @@
                     class="img-fluid"
                   />
                 </div>
-                <!-- <div class="slide">
-                                <img src="images/vendor4.jpg" style="object-fit: cover" class="img-fluid " />
-                            </div> -->
                 <div class="slide">
                   <img
                     src="images/vendor1.png"
@@ -869,7 +858,7 @@
       </div>
     </footer>
     <!-- Footer End -->
-    <script src="translator.js"></script>
+
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -899,8 +888,7 @@
     <script src="js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-    <script src="../../assets/js/theme-panel.js"></script>
+    <script src="js/translator.js"></script>
+    <script src="js/mail.js"></script>
   </body>
-
-  <!-- Mirrored from demo.awaikenthemes.com/html-preview/builtup/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Aug 2024 22:56:47 GMT -->
 </html>

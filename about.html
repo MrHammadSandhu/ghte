@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <!-- Mirrored from demo.awaikenthemes.com/html-preview/builtup/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Aug 2024 22:56:38 GMT -->
-
   <head>
     <!-- Meta -->
     <meta charset="utf-8" />
@@ -820,6 +818,7 @@
     <!-- Vendor End -->
 
     <!-- Contact Us Section Start -->
+    <div id="toast-container"></div>
     <div class="contact-us">
       <div class="container">
         <div class="row align-items-center">
@@ -877,19 +876,14 @@
               </div>
               <!-- Section Title End -->
 
-              <form
-                id="contactForm"
-                action="#"
-                method="POST"
-                data-toggle="validator"
-              >
+              <form id="inquiry-form" data-toggle="validator">
                 <div class="row">
                   <div class="form-group col-md-6 mb-4">
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
                       id="name"
+                      class="form-control"
                       placeholder="Enter Your name"
                       required=""
                     />
@@ -900,8 +894,8 @@
                     <input
                       type="email"
                       name="email"
-                      class="form-control"
                       id="email"
+                      class="form-control"
                       placeholder="Enter Your email"
                       required=""
                     />
@@ -912,8 +906,8 @@
                     <input
                       type="text"
                       name="phone"
-                      class="form-control"
                       id="phone"
+                      class="form-control"
                       placeholder="Phone number"
                       required=""
                     />
@@ -923,9 +917,9 @@
                   <div class="form-group col-md-6 mb-4">
                     <input
                       type="text"
-                      name="website"
+                      name="subject"
+                      id="subject"
                       class="form-control"
-                      id="website"
                       placeholder="Subject"
                       required=""
                     />
@@ -935,8 +929,8 @@
                   <div class="form-group col-md-12 mb-5">
                     <textarea
                       name="msg"
-                      class="form-control"
                       id="msg"
+                      class="form-control"
                       rows="3"
                       placeholder="Message"
                       required=""
@@ -945,10 +939,13 @@
                   </div>
 
                   <div class="col-md-12">
-                    <button type="submit" class="btn-default" ="">
+                    <button
+                      type="submit"
+                      id="submit-button"
+                      class="btn-default"
+                    >
                       submit
                     </button>
-                    <div id="msgSubmit" class="h3 hidden"></div>
                   </div>
                 </div>
               </form>
@@ -1135,7 +1132,8 @@
     <!-- Footer End -->
 
     <!-- Jquery Library File -->
-    <script src="translator.js"></script>
+    <script src="js/translator.js"></script>
+    <script src="js/mail.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
     <script src="js/bootstrap.min.js"></script>
@@ -1164,8 +1162,5 @@
     <script src="js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-    <script src="../../assets/js/theme-panel.js"></script>
   </body>
-
-  <!-- Mirrored from demo.awaikenthemes.com/html-preview/builtup/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Aug 2024 22:56:40 GMT -->
 </html>

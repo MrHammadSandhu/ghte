@@ -46,6 +46,54 @@
   --default-font: "DM Sans", sans-serif;
   --accent-font: "Manrope", sans-serif;
 }
+#toast-container {
+  position: fixed; /* Stays fixed relative to the viewport */
+  top: 20px; /* Always 20px from the top */
+  left: 50%; /* Horizontally center */
+  transform: translateX(-50%); /* Adjust for container width */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: flex;
+  flex-direction: column; /* Stack multiple toasts */
+  align-items: center; /* Center align for stacking */
+  pointer-events: none; /* Prevent blocking clicks on other elements */
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  pointer-events: auto; /* Allow interactions with the toast */
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast.error {
+  background-color: var(--error-color); /* Red for error messages */
+  color: var(--white-color);
+}
+
+.toast.success {
+  background-color: var(--primary-color); /* Green for success messages */
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 500;
+}
 
 /* Scrollbar width */
 ::-webkit-scrollbar {
